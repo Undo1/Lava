@@ -1,5 +1,6 @@
 import re
 import mechanize
+from BeautifulSoup import BeautifulSoup
 
 br = mechanize.Browser()
 br.set_handle_robots(False)
