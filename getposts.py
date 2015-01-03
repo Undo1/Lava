@@ -1,4 +1,5 @@
 import requests
+import sys
 import random
 import re
 
@@ -12,4 +13,4 @@ try:
 	p=re.compile("([\w*\s]{50,})")
 	print random.choice(p.search(test).groups())
 except:
-	print "meh"
+	sys.exit()	
